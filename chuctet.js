@@ -32,11 +32,6 @@ const cauchuc = [
 
   ];
 
-
-  
-  
-
-  
   
   
   const chuctetText = document.querySelector(".idh1");   
@@ -44,8 +39,7 @@ const cauchuc = [
   let chuctetIndex = Math.floor(Math.random() * 30);
   //console.log(chuctetIndex);
   
-  
-  
+   
   
   function printChuctet() {
     //console.log(cauchuc[chuctetIndex]);
@@ -54,18 +48,7 @@ const cauchuc = [
   }
 
   
-  
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   function main() {
     printChuctet();
