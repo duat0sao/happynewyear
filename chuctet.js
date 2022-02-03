@@ -48,7 +48,7 @@ const cauchuc = [
   
   
   function printChuctet() {
-    console.log(cauchuc[chuctetIndex]);
+    //console.log(cauchuc[chuctetIndex]);
     chuctetText.textContent = cauchuc[chuctetIndex];
     
   }
