@@ -5,10 +5,8 @@
   padding: 0;
 }
 
-
 body {
-  height: 100vh;
-  width: 100vw;
+ 
   background-color: #1c2033;
   
   display: flex;
@@ -17,11 +15,10 @@ body {
 
 h1 {
   font-family: 'Courier new';
-  font-size: 5vmin;
+  font-size: 6vmin;
   line-height: 8vmin;
-
-  margin-right: 50px;
-  margin-left: 40px;
+  margin-right: 10px;
+  margin-left: 30px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
@@ -76,4 +73,42 @@ h1 {
     background-size: 50%;
     background-position: 0 0;
   }
+}
+
+
+
+
+
+
+
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  
+  place-items: center;
+  
+}
+
+.wrapper {
+  display: inline-flex;
+}
+
+.wrapper .icon {
+  position: relative;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 3vmin;
+  height: 3vmin;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+ 
 }

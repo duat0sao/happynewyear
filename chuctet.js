@@ -52,7 +52,7 @@ const cauchuc = [
   
   function main() {
     printChuctet();
-   
+    
     
   }
   
