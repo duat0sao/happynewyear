@@ -42,7 +42,7 @@ const cauchuc = [
   const chuctetText = document.querySelector(".idh1");   
   
   let chuctetIndex = Math.floor(Math.random() * 30);
-  console.log(chuctetIndex);
+  //console.log(chuctetIndex);
   
   
   
