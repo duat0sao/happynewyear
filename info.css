@@ -18,11 +18,11 @@ body {
 
 h1 {
   font-family: 'Courier new';
-  font-size: 3vmin;
-  line-height: 7vmin;
+  font-size: 5vmin;
+  line-height: 8vmin;
 
-  margin-right: 100px;
-  margin-left: 80px;
+  margin-right: 50px;
+  margin-left: 40px;
   margin-top: 60px;
   margin-bottom: 60px;
 }
