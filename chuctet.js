@@ -16,11 +16,6 @@ const cauchuc = [
     "chúc ai đó đọc được có 1 thật nhiều sức khoẻ, và luôn vui vẻ tươi tắn xinh xắn :))",
     "Chúc mừng năm mới.",
     "Năm mới chúc bạn mạnh khỏe đạt đc nhiều mục tiêu trong kế hoạch",
-    "Mặt trời là cái bếp lớn còn tia nắng là than hồng,...",
-    "Lá rơi nghiêng như Trần Đăng Khoa",
-    "Có cánh hoa nào không tàn",
-    "Có giấc mơ nào không tan",
-    "Hát để tâm tự vén màn",
     "Thả mình xuôi với mây ngàn",
     "Năm mới, chúc bạn sắc đẹp tuyệt vời, tiền vô phơi phới, người yêu không cần tìm cũng tự tới.",
     "Let your spirit soar and have a joy-filled new year",
@@ -36,7 +31,7 @@ const cauchuc = [
   
   const chuctetText = document.querySelector(".idh1");   
   
-  let chuctetIndex = Math.floor(Math.random() * 30);
+  let chuctetIndex = Math.floor(Math.random() * 25);
   //console.log(chuctetIndex);
   
    
